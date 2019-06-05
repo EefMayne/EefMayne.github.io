@@ -1,6 +1,8 @@
 html {
-	background-image: capture.png;
 	background-color: #000000;
+	background-image: capture.png;
+	background-repeat: no-repeat;
+	background-size: auto;
 }
 
 body {
