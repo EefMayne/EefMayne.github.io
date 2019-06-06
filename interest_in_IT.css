@@ -1,0 +1,175 @@
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 87%;
+    background-image: url("folder/Capture.PNG");
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.page-name {
+    text-align: center;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+/* Banner Overlay */
+.image-banner {
+    position: relative;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 25px;
+}
+/*End Banner Overlay*/
+
+.first-and-last-name {
+    padding: 20px 0px 20px 10px;
+}
+
+.first-and-last-name input{
+    padding: 5px 0px;
+    color: darkblue;
+    border-radius: 5px;
+}
+
+.container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	padding: 0px 40px;
+	box-sizing: border-box;
+}
+
+header {
+	padding-top: 20px;
+	color: #617140;
+}
+
+header h1 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 165%;
+}
+
+header p {
+	margin: 0;
+}
+
+/* Site Navigation */
+.site-nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li{
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+    background-color: black;
+    display: inline-block;
+}
+
+.site-nav a {
+    color: #17F61F;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #e5e9dc;
+    display: inline-block;
+}
+
+.site-nav a:hover {
+    border-bottom-color: aqua;
+}
+
+/* End Site Navigation */
+
+.content-area {
+    margin-top: -10px #e5e9dc;
+	border-top: 3px solid #e5e9dc;
+	border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area {
+	width: 66%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+.sidebar {
+	width: 34%;
+	float: left;
+	background-color: #e5e9dc;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	font-size: 85%;
+}
+
+footer {
+	text-align: center;
+	font-size: 85%;
+	color: #999;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+/*Clearfix method: This ensures that the css code places borders on top and bottom of the text.*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	zoom: 1;
+}
+
+
+/*List of Study previousley done*/
+.study-history {
+  width: 500px;
+  margin: 10px
+}
+ 
+.study {
+  color: #ccc;
+  list-style-type: none;
+}
+ 
+.study li {
+  position: relative;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+ 
+.study li p {
+  font: 12px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #555;
+}
+ 
+.study span {
+  position: absolute;
+}
