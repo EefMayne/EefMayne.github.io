@@ -1,0 +1,157 @@
+/* Whole Page */
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 87%;
+    background-image: url("pictures/Capture.PNG");
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+/* End Whole Page */
+
+
+/* Site Navigation */
+.site-nav {
+    margin-top: 20px;
+    text-align: center;
+    position: absolute;
+    left: 375px;
+    top: 0;
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav li{
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+    display: inline-block;
+}
+.site-nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #e5e9dc;
+    display: inline-block;
+    border-radius: 10px;
+}
+.site-nav a:hover {
+    border-color: #17F61F;
+}
+/* End Site Navigation */
+
+
+/* Main Section of HTML */
+.container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	padding: 0px 40px;
+	box-sizing: border-box;
+}
+
+    /* The Header */
+    header {
+        padding-top: 50px;
+        color: #617140;
+    }
+    .bottom-text {
+        padding-bottom: 10px;
+    }
+    .header-text {
+        text-align: center;
+    }
+    /* End Header */
+
+.content-area {
+    margin-top: -10px #e5e9dc;
+	border-top: 3px solid #17F61F;
+	border-bottom: 3px solid #17F61F;
+    padding-bottom: 10px;
+}
+.main-area {
+	width: 66%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+    /* List of Study */
+    .study-history {
+      width: 500px;
+      margin: 10px
+    }
+    .study {
+      color: #ccc;
+      list-style-type: none;
+    }
+    .study li {
+      position: relative;
+      font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+      margin-bottom: 20px;
+    }
+    .study li p {
+      font: 12px/1.5 Helvetica, sans-serif;
+      padding-left: 60px;
+      color: #555;
+    }
+    .study span {
+      position: absolute;
+    }
+    /* End of List of Study */
+
+.sidebar {
+	width: 34%;
+	float: left;
+	background-color: #e5e9dc;
+    color: #000000;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+footer {
+	text-align: center;
+	font-size: 85%;
+	color: #999;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+/* End Main Section of HTML */
+
+
+/* Image and Banner Overlay */
+img {
+    max-width: 100%;
+    height: auto;
+}
+.image-banner {
+    position: relative;
+}
+.image-banner img {
+    display: block;
+}
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 25px;
+}
+/*End Image and Banner Overlay*/
+
+
+/*Clearfix method: This ensures that the css code places borders on top and bottom of the text.*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	zoom: 1;
+}
+/* End of Clearfix Method */
