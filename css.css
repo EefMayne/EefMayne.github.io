@@ -1,11 +1,8 @@
-html {
-
-}
 
 body {
 	font-family: Tahoma, sans-serif;
 	font-size: 87%;
-    	background-image: url("folder/capture.png");
+    background-image: url("folder/capture.png");
 	background-color: black;
 	background-size: auto;
 	background-repeat: no-repeat;
