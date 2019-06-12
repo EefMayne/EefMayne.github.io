@@ -82,23 +82,15 @@ footer {
 
 
 /* Image and Banner Overlay*/
-img {
-    max-width: 100%;
-    height: auto;
-}
 .image-container {
-    float: right;
-    width: relative;
     text-align: center;
     position: absolute;
     right: 250px;
-    top: 230px
-}
-.image-banner {
-    position: relative;
+    top: 280px
 }
 .image-banner img {
-    display: block;
+    max-width: 100%;
+    height: auto;
 }
 .banner-description {
     position: absolute;

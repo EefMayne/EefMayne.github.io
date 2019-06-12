@@ -61,8 +61,8 @@ header {
 
 .content-area {
     margin-top: -10px #e5e9dc;
-	border-top: 3px solid #17F61F;
-	border-bottom: 3px solid #17F61F;
+	border-top: 3px solid #e5e9dc;
+	border-bottom: 3px solid #e5e9dc;
     padding-bottom: 10px;
 }
 .main-area {
