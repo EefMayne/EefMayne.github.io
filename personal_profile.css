@@ -82,18 +82,16 @@ footer {
 
 
 /* Image and Banner Overlay*/
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 .image-container {
     float: right;
     width: relative;
-    text-align: center;
-    position: absolute;
+    position: relative;
     right: 250px;
     top: 230px
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
 }
 /*End Image and Banner Overlay*/
 
