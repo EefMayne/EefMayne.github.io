@@ -85,9 +85,9 @@ footer {
 .image-container {
     float: right;
     width: relative;
-    position: relative;
+    position: absolute;
     right: 250px;
-    top: 230px
+    top: 280px
 }
 .image-container img {
     max-width: 100%;

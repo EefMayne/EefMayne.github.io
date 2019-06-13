@@ -65,12 +65,19 @@ header {
 	border-bottom: 3px solid #e5e9dc;
 }
 .main-area {
-	width: 66%;
 	float: left;
     padding-right: 40px;
 	box-sizing: border-box;
 }
-
+.test-1 {
+    width: 60%;
+}
+.test-2 {
+    width: 100%;
+}
+.test-3 {
+    width: 100%;
+}
 footer {
 	text-align: center;
 	font-size: 85%;
@@ -81,19 +88,19 @@ footer {
 /* End Main Section Of HTML */
 
 
-/* Image and Banner Overlay*/
+/* Image Overlay*/
 .image-container {
     float: right;
     width: relative;
-    position: relative;
-    right: 250px;
-    top: 230px
+    position: absolute;
+    right: 130px;
+    top: 280px
 }
 .image-container img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
-/*End Image and Banner Overlay*/
+/*End Image Overlay*/
 
 
 /*Clearfix method: This ensures that the css code places borders on top and bottom of the text.*/
