@@ -85,6 +85,7 @@ footer {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 .image-container {
     float: right;
@@ -93,20 +94,6 @@ img {
     position: absolute;
     right: 250px;
     top: 230px
-}
-.image-banner {
-    position: relative;
-}
-.image-banner img {
-    display: block;
-}
-.banner-description {
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #FFF;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 15px 25px;
 }
 /*End Image and Banner Overlay*/
 
