@@ -14,24 +14,28 @@ body {
     background-color: #e5e9dc;
     overflow: auto; 
     position: relative;
+    width: 100%;
     margin: auto;
-    width: 50%;
+    display: table;
+    padding: 20px 0px;
+    max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+    box-sizing: border-box;
 }
 .list a {
-    float: left;
     color: #000000;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: underline;
-    font-size: 17px;
+    font-size: 17px; 
 }
 .list a:hover {
     background-color: #ddd;
     color: black;
 }
-.list a.active {
-    background-color: #4CAF50;
-    color: white;
+.list span {
+    display: table-cell;
+    text-align: center;
 }
 /* End Site Navigation */
 
@@ -48,7 +52,7 @@ body {
 
 /* The Header */
 header {
-    padding-top: 50px;
+    padding-top: 1px;
     color: #617140;
 }
 .bottom-text {
@@ -63,12 +67,23 @@ header {
     margin-top: -10px #e5e9dc;
 	border-top: 3px solid #e5e9dc;
 	border-bottom: 3px solid #e5e9dc;
+    padding-bottom: 10px;
+    overflow: hidden;
 }
 .main-area {
-	width: 66%;
-	float: left;
-    padding-right: 40px;
-	box-sizing: border-box;
+    overflow: hidden;  
+}
+
+.it-in-my-life {
+    vertical-align:top !important;
+    display: inline-block;
+    padding: 10px 10px;
+    width: 60%;   
+}
+
+.image-banner {
+    display: inline-block;
+    width: 20%;
 }
 
 footer {
@@ -82,23 +97,37 @@ footer {
 
 
 /* Image and Banner Overlay*/
-.image-container {
-    text-align: center;
-    position: absolute;
-    right: 250px;
-    top: 280px
-}
-.image-banner img {
+
+.image-container img {
+    display: block;
     max-width: 100%;
     height: auto;
+    display: inline-block;
+}
+.image-container {
+    vertical-align:top !important;
+    height: auto;
+    top: 50px;
+    right: -30px;
+	width: 30%;
+    display: inline-block;
+    color: #000000;
+	font-size: 100%;
+    position: relative;
+    
 }
 .banner-description {
     position: absolute;
-    top: 0;
+    z-index: 999;
     left: 0;
+    right: 0;
+    top: 0;
+    width: auto;
     color: #FFF;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 15px 25px;
+    text-align: center;
+    margin-right: 3px;
 }
 /*End Image and Banner Overlay*/
 

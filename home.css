@@ -9,46 +9,51 @@ body {
 /* End Whole Page */
 
 
-/* Site Navigation */
-.list {
-    background-color: #e5e9dc;
-    overflow: auto; 
-    position: relative;
-    margin: auto;
-    width: 50%;
-}
-.list a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: underline;
-    font-size: 17px;
-}
-.list a:hover {
-    background-color: #ddd;
-    color: black;
-}
-.list a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-/* End Site Navigation */
-
-
 /* Main Section of HTML */
 .container {
 	max-width: 940px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #FFF;
-	padding: 0px 40px;
+    padding: 0px 40px;
 	box-sizing: border-box;
 }
 
+
+/* Site Navigation */
+.list {
+    background-color: #e5e9dc;
+    overflow: auto; 
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: table;
+    padding: 20px 0px;
+    max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+    box-sizing: border-box;
+}
+.list a {
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px; 
+}
+.list a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.list span {
+    display: table-cell;
+    text-align: center;
+}
+/* End Site Navigation */
+
+
 /* The Header */
 header {
-    padding-top: 50px;
+    padding-top: 1px;
     color: #617140;
 }
 .bottom-text {
@@ -70,18 +75,14 @@ header {
 	float: left;
 	padding-right: 40px;
 	box-sizing: border-box;
+    text-align: center;
 }
 
     /* List of Study */
-.study-history {
-    text-align: center;
-}
-.study-history h2 {
-    padding-left: 40px;
-}
-.study {
+.study ol {
     color: #ccc;
     list-style-type: none;
+    padding-right: 40px;
     }
 .study li {
     font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
@@ -115,18 +116,18 @@ footer {
 /* Image and Banner Overlay */
 .image-banner {
     position: relative;
+    width: 100%;
 }
 .image-banner img {
     display: block;
-    padding-left: 30%;
     max-width: 100%;
     height: auto;
 }
 .banner-description {
     position: absolute;
     bottom: 0;
-    left: 30%;
-    width: 470px;
+    left: 0;
+    width: auto;
     color: #FFF;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 15px 25px;

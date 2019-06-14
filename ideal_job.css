@@ -14,24 +14,28 @@ body {
     background-color: #e5e9dc;
     overflow: auto; 
     position: relative;
+    width: 100%;
     margin: auto;
-    width: 50%;
+    display: table;
+    padding: 20px 0px;
+    max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+    box-sizing: border-box;
 }
 .list a {
-    float: left;
     color: #000000;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: underline;
-    font-size: 17px;
+    font-size: 17px; 
 }
 .list a:hover {
     background-color: #ddd;
     color: black;
 }
-.list a.active {
-    background-color: #4CAF50;
-    color: white;
+.list span {
+    display: table-cell;
+    text-align: center;
 }
 /* End Site Navigation */
 
@@ -48,7 +52,7 @@ body {
 
 /* The Header */
 header {
-    padding-top: 50px;
+    padding-top: 1px;
     color: #617140;
 }
 .bottom-text {
