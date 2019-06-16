@@ -67,12 +67,18 @@ header {
     margin-top: -10px #e5e9dc;
 	border-top: 3px solid #e5e9dc;
 	border-bottom: 3px solid #e5e9dc;
+    padding-bottom: 10px;
+    overflow: hidden;
 }
 .main-area {
-	width: 66%;
-	float: left;
-    padding-right: 40px;
-	box-sizing: border-box;
+    overflow: hidden;  
+}
+
+.it-in-my-life {
+    vertical-align:top !important;
+    display: inline-block;
+    padding: 10px 10px;
+    width: 60%;   
 }
 
 footer {
@@ -86,16 +92,23 @@ footer {
 
 
 /* Image and Banner Overlay*/
-.image-container {
-    float: right;
-    width: relative;
-    position: absolute;
-    right: 250px;
-    top: 280px
-}
 .image-container img {
+    display: block;
     max-width: 100%;
     height: auto;
+    display: inline-block;
+}
+
+.image-container {
+    vertical-align:top !important;
+    height: auto;
+    top: 50px;
+    right: -30px;
+	width: 30%;
+    display: inline-block;
+    color: #000000;
+	font-size: 100%;
+    position: relative;    
 }
 /*End Image and Banner Overlay*/
 
